@@ -1,0 +1,348 @@
+*{
+    padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+header{
+    background-color:#eee;
+}
+.all{
+    background-color:white;
+    height: 55px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 1347px;
+    top: 0;
+}
+.mi-logo img{
+    height: 60px;
+    padding: 10px;
+}
+.left{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+.left li{
+    display: flex;
+    padding: 20px;
+}
+.left li:hover{
+   color: #ff6900;
+   border-bottom: 2px solid #ff6900;
+}
+.right{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.right li{
+    display: flex;
+    padding: 20px; 
+}
+.right-hover:hover{
+    color: #ff6900;
+    border-bottom: 2px solid #ff6900;
+}
+.image-logo img{
+    margin:2px;
+    width:100%;
+    height:400px;
+    align-items: center;
+    display: flex;
+}
+.Products{
+    margin-top: 80px;
+    text-align: center;
+    padding-left: 420px;
+
+}
+.Trend {
+    list-style: none;
+    margin: 30px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.Trend li{
+    padding: 20px;
+}
+.Trend li:hover{
+    color: #ff6900;
+    border-bottom: 2px solid #ff6900;
+}
+.mi-image__img{
+    margin: 0px 90px 0px ;
+    border: 25px solid white;
+    border-bottom: 25px;
+    border-radius: 10px;
+}
+.phone{
+    display: flex;
+    justify-content:right;
+    height: 330px;
+}
+.good{
+    margin-right: 98px;
+}
+.good img{
+    width: 570px;
+    height: 330px;
+}
+.global{
+    margin-top: 80px;
+    align-items: center;
+    margin-right: 110px;
+}
+.global img{
+    height: 83px;
+}
+.size{
+    margin-top: 15px;
+    text-align: center;
+}
+.appmifile{
+    display: flex;
+}
+.referrerpolicy{
+    border: 25px solid white; 
+    border-left: 20px;
+    width:380px;
+    height:375px;
+}
+.thumb{
+    display: block;
+    margin:auto;
+}
+.Photography{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.alu{
+    text-align: center;
+}
+p{
+    color: rgb(116, 112, 112) ;
+}
+.button-1{
+    color: white;
+    background-color: black;
+    width: 90px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.alt{
+    border: 25px solid white;
+    border-left: 20px;
+    width: 380px;
+    height: 375px;
+} 
+.Watch{
+    border: 25px solid white;
+    border-left: 20px;
+    width:380px;
+    height: 375px;
+}
+.Smart{
+    border: 25px solid white;
+    border-left: 20px;
+    border-right: 10px;
+    width:380px;
+    height: 375px; 
+}
+.Explore{
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: right;
+}
+h1{
+    padding-right: 410px;
+}
+.fa-circle-chevron-left{
+    margin-top: 5px;
+    font-size: 30px;
+    position: relative;
+    right: 25px;
+    color: rgb(167, 173, 173);
+}
+.fa-circle-chevron-right{
+    margin-top: 5px;
+    padding-right: 90px;
+    font-size: 30px;
+    color: rgb(167, 173, 173);
+}
+.circle{
+    display: flex;
+    margin-top: 25px;
+}
+.todo{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 650px;
+}
+.out{
+    margin: 15px;
+    border-radius: 20px;
+    background-color: white;
+    width: 650px;
+}
+.launch{
+    text-align: center;
+    margin: 30px;
+}
+.smooth{
+    text-align: center;
+    margin:30px;
+}
+.para{
+    margin: 10px;
+}
+.button-2{
+    color: white;
+    background-color: black;
+    width: 90px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.Support{
+    margin-top: 70px;
+    text-align:center;
+    padding-left: 420px;
+}
+.lodo{
+    margin-top:50px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+.fa-solid-1{
+    text-align: center;
+}
+.fa-solid-1:hover i{
+    color: #ff6900;
+}
+.fa-solid-1:hover p{
+    color: #ff6900;
+}
+.fa-solid-1:hover h2{
+    color: #ff6900;
+}
+.fa-headset{
+    font-size: 50px;
+    color: #7e7878;
+    margin-bottom: 20px;
+}
+.fa-unity{
+    font-size: 50px;
+    color: #7e7878;
+    margin-bottom: 20px;
+}
+.fa-spotify{
+    font-size: 50px;
+    color: #7e7878;
+    margin-bottom: 20px;
+}
+.fa-weixin{
+    font-size: 50px;
+    color: #7e7878;
+    margin-bottom: 20px;
+}
+.digital{
+    border: 1px solid rgb(29, 29, 29);
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(29, 29, 29);
+}
+.act{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.usa li{
+    color: #7e7878;
+    list-style: none;
+    margin-top: 15px;
+}
+.usa li:hover{
+    color: white;
+    text-decoration:underline;
+}
+.gudu{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.fact{
+    color: #7e7878;
+    font-size: 28px;
+    letter-spacing: 6px;
+    margin-top: 15px;
+}
+.fa-square-facebook:hover{
+    color: white;
+}
+.fa-youtube:hover{
+    color: white;
+}
+.fa-square-x-twitter:hover{
+    color: white;
+}
+.fa-square-instagram:hover{
+    color: white;
+}
+.top-1{
+    width: 360px;
+    height: 40px;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 10px;
+    align-items: center;
+}
+input{
+    color: white;
+    font-size: 20px;
+}
+.top-1 input{ 
+    border: none;
+    outline: none;
+    background-color:rgb(29, 29, 29) ;
+}
+.top-1 .fa-chevron-righ{
+    font-size: 18px;
+}
+.asib{
+    padding-left: 10px;
+}
+.fa-chevron-right{
+    color: white;
+    padding-left: 20px;
+}
+.pic1{
+    position: relative;
+}
+.pic2{
+    background-color: white;
+    position: absolute;
+    height: 120px;
+    display: none;
+    width: 1347px;
+    justify-content: center;
+    
+}
+.pic1:hover .pic2{
+    display: flex;
+}
+span{
+    margin-top: 40px;
+}
+.l1{
+    font-size: 40px;
+    padding-right: 30px;
+}
+.l2{
+    font-size:25px;
+}
